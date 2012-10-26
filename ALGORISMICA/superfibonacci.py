@@ -20,4 +20,4 @@ def fib(n):
 t0 = time.clock()
 print fib(1000000)
 tf = time.clock()
-print (tf - t0)*1000 , 'ms'
+print (tf - t0), 's'
