@@ -46,7 +46,7 @@ def dna():
         
         mincost     = len(needle)#el pitjor cost posible es on s'hagin de canviar totes les lletres
         bestmatch   = ''#millor substring trovat
-        beststart   = 0#posicio on comença la substring a la linia
+        beststart   = 0#posicio on comenca la substring a la linia
         bestend     = 0#posicio on acaba la substring a la linia
         bestline    = 0#linia de l'arxiu on hem trobat el substr mes semblant a l'agulla
         
@@ -81,7 +81,7 @@ def dna():
                     else:
                         row -= 1
 
-                beststart   = col                           #columna on comença la paraula
+                beststart   = col                           #columna on comenca la paraula
                 bestmatch   = line[beststart - 1:bestend]   #substring del pajar que s'asembla mes a l'agulla (patro)
 
                 if mincost == 0:#si la substring es identica... 
